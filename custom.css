@@ -1,0 +1,115 @@
+/* CSS Document */
+
+html {
+	border: 0;
+	margin-top: -20px;
+	height: 100%;
+	margin-bottom: -20px;
+	
+}
+
+body {
+	font-family: 'Megrim', cursive;
+	height: 110%;
+	margin: 0;
+	overflow: hidden;
+	
+}
+
+.bg1 {
+    background-image: url("images/mountain.jpeg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow: hidden;
+}
+
+
+.bg2 {
+    background-image: url("images/man.jpeg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	overflow: hidden;
+	
+	
+}
+
+
+.bg3 {
+    background-image: url(images/collection.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	overflow: hidden;
+	
+}
+
+
+
+.sidebar {
+	height: 660px;
+    width: 135px;
+	max-width: 135px;
+    background-color: white;
+	opacity: 0.4;
+	overflow:inherit;
+
+}
+
+
+.sidebar2 {
+	height: 660px;
+    width: 135px;
+	max-width: 135px;
+    background-color: white;
+	opacity: 0.6;
+	overflow:inherit;
+
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 10px;
+	margin-left: 0px;
+	
+}
+
+li{
+	padding: 10px; 0px; 0px; 0px;
+
+}
+
+h2{
+	padding:25px 10px 0px 10px;
+	
+}
+
+
+a:link{
+	text-decoration: none;
+	color:#696969;
+}
+
+a:active{
+	color: black;
+}
+
+a:hover{
+	color: black;	
+} 
+
+
+.call {
+	position: absolute;
+	left: 200px;
+	top: 0.2px;
+	z-index:1;
+	font-size: 8px;
+	color: white;
+	opacity: 0.5;
+font-family: 'Old Standard TT', serif;
+}
