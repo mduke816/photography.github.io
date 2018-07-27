@@ -17,7 +17,7 @@ body {
 }
 
 .bg1 {
-    background-image: url("images/mountain.jpeg");
+    background-image: url("images/rocks.jpeg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -56,6 +56,17 @@ body {
 	max-width: 135px;
     background-color: white;
 	opacity: 0.4;
+	overflow:inherit;
+
+}
+
+
+.sidebar1 {
+	height: 660px;
+    width: 135px;
+	max-width: 135px;
+    background-color: white;
+	opacity: 0.6;
 	overflow:inherit;
 
 }
